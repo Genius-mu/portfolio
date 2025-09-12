@@ -1,0 +1,139 @@
+.contact {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+}
+.contact_container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  row-gap: 2em;
+  flex-direction: column;
+}
+.contact_container .contact_head {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5em;
+}
+.contact_container .contact_head h2 {
+  font-size: 25px;
+}
+.contact_container .contact_head p {
+  font-size: 16px;
+}
+.contact_container .contact_head p span,
+.contact_container .contact_head h2 span {
+  color: var(--dark-clr);
+  font-weight: bold;
+}
+.contact_body {
+  width: 100%;
+  height: 100%;
+}
+.contact_body form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+.input_cont {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5em;
+}
+.input_cont label i {
+  color: #f00;
+}
+.input_cont input {
+  outline: none;
+  border: 1px solid #888;
+  font-size: 16px;
+  padding: 1% 0;
+  border-radius: 6px;
+  padding-left: 1em;
+}
+.input_cont textarea {
+  height: 12em;
+  resize: none;
+  outline: none;
+  border: 1px solid #888;
+  font-size: 16px;
+  padding: 1% 0;
+  border-radius: 6px;
+  padding-left: 1em;
+}
+form button {
+  color: #fff;
+  background: var(--dark-clr);
+  width: fit-content;
+  padding: 1% 2%;
+  border-radius: 7px;
+  font-weight: 600;
+  border: none;
+}
+form button:hover {
+  background: hsl(from var(--dark-clr) h s calc(l - 10));
+}
+
+@media (max-width: 462px) {
+  .contact_container .contact_head h2 {
+    font-size: 23px;
+  }
+  .contact_container .contact_head p {
+    font-size: 14px;
+  }
+  .input_cont :is(input, textarea) {
+    padding: 2% 0;
+    padding-left: 1em;
+  }
+}
+@media (max-width: 330px) {
+  .contact_container .contact_head h2 {
+    font-size: 22px;
+  }
+  .contact_container .contact_head p {
+    font-size: 13px;
+  }
+  .input_cont :is(input, textarea) {
+    padding: 2% 0;
+    padding-left: 1em;
+    font-size: 13px;
+  }
+  .input_cont label {
+    font-size: 13px;
+  }
+  form button {
+    font-size: 13px;
+    padding: 2% 1em;
+  }
+}
+@media (max-width: 270px) {
+  .contact_container .contact_head h2 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .contact_container .contact_head p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 256px) {
+  form button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 1em;
+  }
+}
+
+@media (max-width: 234px) {
+  .contact_container .contact_head h2 {
+    font-size: 17px;
+  }
+  .contact_container .contact_head p {
+    font-size: 11px;
+  }
+}

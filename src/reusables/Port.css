@@ -1,0 +1,116 @@
+.port_container {
+  display: flex;
+  background: #fff;
+  padding: 3% 1%;
+  column-gap: 1em;
+  align-items: center;
+  transition: 0.5s all;
+}
+.port_container:first-child {
+  padding-top: 1%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.port_container:last-child {
+  padding-bottom: 1%;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.port_container:not(:last-child) {
+  border-bottom: 1px solid #999;
+}
+.port_img {
+  width: 50%;
+  height: 14em;
+  overflow: hidden;
+  border-radius: 13px;
+}
+.port_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.port_img:hover img {
+  transform: scale(1.02);
+}
+.port_content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+.port_content p {
+  max-width: 700px;
+}
+.port_CTA {
+  color: var(--dark-clr);
+  text-decoration: none;
+  font-weight: 500;
+  width: fit-content;
+  padding: 1% 1em;
+  border-radius: 8px;
+  border: 2px solid var(--dark-clr);
+  transition: 0.4s all;
+  justify-content: center;
+  column-gap: 0.3em;
+  align-items: center;
+}
+.port_CTA i {
+  font-weight: 700;
+}
+.port_CTA:hover {
+  color: #fff;
+  background: var(--dark-clr);
+}
+
+@media (max-width: 950px) {
+  .port_img {
+    width: 80%;
+  }
+}
+@media (max-width: 772px) {
+  .port_img {
+    width: 100%;
+    height: 12em;
+  }
+}
+@media (max-width: 785px) {
+  .port_content p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 708px) {
+  .port_content h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 702px) {
+  .port_content p {
+    font-size: 13px;
+    max-width: 500px;
+  }
+}
+@media (max-width: 570px) {
+  .port_container {
+    flex-direction: column;
+    row-gap: 1em;
+    padding: 3%;
+  }
+  .port_container:first-child {
+    padding-top: 3%;
+  }
+  .port_container:last-child {
+    padding-bottom: 3%;
+  }
+}
+@media (max-width: 268px) {
+  .port_content h2 {
+    font-size: 15px;
+  }
+  .port_content p {
+    font-size: 11px;
+  }
+  .port_img {
+    height: 10em;
+  }
+}

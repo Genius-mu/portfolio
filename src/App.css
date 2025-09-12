@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+  --bg-clr: #fbfbfb;
+  --dark-clr: hsl(260, 100%, 40%);
+}
+body {
+  background: var(--bg-clr);
+}
