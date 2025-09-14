@@ -10,7 +10,7 @@ const Banner = () => {
           <motion.div animate={{y: 0}} className="banner_contents">
             <p>Hello, I'm</p>
             <h2>Mustapha Adegbite</h2>
-            <Link to="">
+            <Link to="mailto:adegbitemustapha@gmail.com">
               <i class="bx bx-envelope"></i> hey@mustapha.com
             </Link>{" "}
             {/* link to send mail */}
