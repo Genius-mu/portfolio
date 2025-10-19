@@ -11,7 +11,7 @@ const Section3 = () => {
           </h1>
           <div className="sec3_inner">
             <Content1
-              img={"/src/images/Capture4.JPG"}
+              img={"/images/Capture4.JPG"}
               h2_Content={"Real-Estate Website"}
               p={
                 "This is an Hybid Real-Estate website I built from two different templates I got from Dribble."
@@ -19,7 +19,7 @@ const Section3 = () => {
               ctaLink={"https://airbnb-emly.onrender.com/"}
             />
             <Content1
-              img={"/src/images/car.JPG"}
+              img={"/images/car.JPG"}
               h2_Content={"Hamburger website"}
               p={
                 "I built this polished Hamburger website for one of my High School senior who wanted to start an Hamburger Business."
@@ -27,7 +27,7 @@ const Section3 = () => {
               ctaLink={"https://holeey.onrender.com/"}
             />
             <Content1
-              img={"/src/images/laund.JPG"}
+              img={"/images/laund.JPG"}
               h2_Content={"Laundry website"}
               p={
                 "This is the landing page I built for Laundry Business Startup."

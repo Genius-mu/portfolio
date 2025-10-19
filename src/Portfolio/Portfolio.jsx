@@ -15,8 +15,24 @@ const Portfolio = () => {
           </div>
           <div className="port_body">
             <Port
+              webName={"Invoice Generator"}
+              portImg={"/images/invcs.JPG"}
+              CTAlink={"https://aiinvoicegenerator.netlify.app/"}
+              webDescription={
+                "A fully functional React app that allows users to create, edit, and download professional invoices in real time. It features a clean interface, dynamic form handling, and automatic total calculations for accuracy and ease of use. This project highlights my ability to build practical, data-driven React applications with strong focus on usability and modern design."
+              }
+            />
+            <Port
+              webName={"Learning Game — Interactive Word Game"}
+              portImg={"/images/spllGam.JPG"}
+              CTAlink={"https://learningame.netlify.app/"}
+              webDescription={
+                "A fun, animated word game built with React and Framer Motion, showcasing problem-solving, state management, and interactive UI design. It highlights my ability to create smooth animations, responsive interfaces, and engaging front-end experiences that bring logic and creativity together."
+              }
+            />
+            <Port
               webName={"Hamburger Website"}
-              portImg={"/src/images/car.JPG"}
+              portImg={"/images/car.JPG"}
               CTAlink={"https://holeey.onrender.com/"}
               webDescription={
                 "A clean and appetizing landing page for a modern food brand. With bold visuals, smooth navigation, and user-friendly layouts, it shows my ability to design engaging websites that leave a lasting impression."
@@ -24,7 +40,7 @@ const Portfolio = () => {
             />
             <Port
               webName={"Real-Estate Website"}
-              portImg={"/src/images/Capture4.JPG"}
+              portImg={"/images/Capture4.JPG"}
               CTAlink={"http://airbnb-emly.onrender.com/"}
               webDescription={
                 "A sleek landing page built for real estate services. It highlights properties with clarity, trust, and modern design while reflecting my skill in creating functional and visually appealing business websites."
@@ -32,7 +48,7 @@ const Portfolio = () => {
             />
             <Port
               webName={"Civil Website"}
-              portImg={"/src/images/Capture.JPG"}
+              portImg={"/images/Capture.JPG"}
               CTAlink={"civisb.onrender.com"}
               webDescription={
                 "A professional landing page designed for civil engineering and construction. It presents services and projects with structure and authority, demonstrating my strength in building industry-specific websites."
@@ -43,15 +59,25 @@ const Portfolio = () => {
               webDescription={
                 "A fresh landing page created for laundry and cleaning services. Simple layouts, clear calls-to-action, and modern visuals make it practical and customer-focused, showing my ability to design service-based websites."
               }
-              portImg={"/src/images/laund.JPG"}
+              portImg={"/images/laund.JPG"}
               CTAlink={"https://laundry-ea6v.onrender.com/"}
             />
-            {/* <Port
-              webName={"Hamburger Website"}
+            <Port
+              webName={"Image Gallery"}
               webDescription={
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae libero architecto ipsa omnis quod a odit veniam beatae molestias dolorem, asperiores inventore deleniti autem vitae eos sit quasi ratione illum!"
+                "A clean and responsive image gallery built with smooth navigation and elegant layouts. It allows users to browse images seamlessly using next and previous controls. This project showcases my skill in creating visually organized, interactive, and user-friendly front-end experiences."
               }
-            /> */}
+              portImg={"/images/imggal.JPG"}
+              CTAlink={"https://image-gallery-geniusmu.onrender.com/"}
+            />
+            <Port
+              webName={"Music PLayer"}
+              webDescription={
+                "A modern and responsive music player built with clean design and smooth interactions. It features intuitive controls, dynamic track display, and a minimal layout that enhances the listening experience. This project highlights my ability to create interactive, visually appealing, and user-focused web interfaces."
+              }
+              portImg={"/images/musicPlay.JPG"}
+              CTAlink={"http://music-player-nblg.onrender.com/"}
+            />
           </div>
         </div>
       </section>

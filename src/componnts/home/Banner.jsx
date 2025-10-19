@@ -22,7 +22,7 @@ const Banner = () => {
             </Link>
           </motion.div>
           <motion.div drag className="banner_img">
-            <img src="/src/images/IMG_20250907_175210~3.jpg" alt="" />
+            <img src="/images/IMG_20250907_175210~3.jpg" alt="" />
           </motion.div>
         </div>
       </section>
