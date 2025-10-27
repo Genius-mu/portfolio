@@ -36,7 +36,7 @@ const Section4 = () => {
               </h3>
               <nav>
                 <Link to="/portfolio">Portfolio</Link>
-                <Link to="/home#sec2">Skills and Experience</Link>
+                <Link to="/home">Skills and Experience</Link>
                 <Link to="/contact">Contact</Link>
               </nav>
             </div>

@@ -7,7 +7,7 @@ const Banner = () => {
     <>
       <section className="banner" id="panel">
         <div className="banner_container">
-          <motion.div animate={{y: 0}} className="banner_contents">
+          <motion.div animate={{ y: 0 }} className="banner_contents">
             <p>Hello, I'm</p>
             <h2>Mustapha Adegbite</h2>
             <Link to="mailto:adegbitemustapha@gmail.com">
@@ -21,8 +21,15 @@ const Banner = () => {
               <i class="bx bxl-discord"></i> discord
             </Link>
           </motion.div>
-          <motion.div drag className="banner_img">
-            <img src="/images/IMG_20250907_175210~3.jpg" alt="" />
+          <motion.div>
+            <motion.img
+              drag={"y"}
+              dragConstraints={{ top: "30", bottom: "30" }}
+              className="banner_img"
+              style={{ cursor: "drag" }}
+              src="/images/IMG_20250907_175210~3.jpg"
+              alt=""
+            />
           </motion.div>
         </div>
       </section>

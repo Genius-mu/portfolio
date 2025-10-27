@@ -78,6 +78,22 @@ const Portfolio = () => {
               portImg={"/images/musicPlay.JPG"}
               CTAlink={"http://music-player-nblg.onrender.com/"}
             />
+            <Port
+              webName={"Ticket Management App (Vue.js)"}
+              webDescription={
+                "A Vue.js version of the ticket management system featuring authentication, dynamic dashboard, and complete ticket CRUD. Uses composables and localStorage for state management."
+              }
+              portImg={"/images/tktVu.JPG"}
+              CTAlink={"https://ticket-mapp2.netlify.app/"}
+            />
+            <Port
+              webName={"Ticket Management App (React)"}
+              webDescription={
+                "A full-featured ticket management system built with React, TailwindCSS, and localStorage for persistent storage. Includes authentication, dashboard with ticket stats, and full CRUD functionality."
+              }
+              portImg={"/images/tktAct.JPG"}
+              CTAlink={"http://ticket-mapp.netlify.app/"}
+            />
           </div>
         </div>
       </section>
